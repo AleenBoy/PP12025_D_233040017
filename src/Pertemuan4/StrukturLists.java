@@ -70,4 +70,39 @@ public class StrukturLists {
             }
         }
     }
+    
+    public void removeHead() {
+        if (isEmpty()) {
+            System.out.println("List is empty");
+        } else {
+            Node temp = HEAD;
+            HEAD = HEAD.getNext();
+            dispose(temp);
+        }
+    }
+    
+    private void dispose(Node node) {
+        node.setNext(null);
+        node = null;
+    }
+    public void removeTail() {
+        Node preNode = null, lastNode;
+        if (HEAD != null) {
+            if (HEAD.getNext() == null) {
+                HEAD = null;
+                System.out.println("List is empty");
+            } else {
+                lastNode = HEAD;
+                while (lastNode.getNext() != null) {
+                    preNode = lastNode;
+                    lastNode = lastNode.getNext();
+                }
+                preNode.setNext(null);
+                dispose(lastNode);
+            }
+        }
+    }
+
+
+
 }
