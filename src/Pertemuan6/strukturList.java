@@ -1,6 +1,6 @@
-package pertemuan6;
+package Pertemuan6;
 
-import pertemuan4.Node;
+import Pertemuan4.Node;
 
 public class strukturList {
 

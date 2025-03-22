@@ -1,20 +1,20 @@
-package pertemuan6;
+package Pertemuan6;
 
-import pertemuan6.strukturList;
+import Pertemuan6.strukturList;
 
 
 public class strukturListTest {
 	//Main program latihan 2
-	public static void main(String[]args) {
-		strukturList list = new strukturList();
-		list.addTail(5);
-		list.addTail(4);
-		list.addTail(6);
-		
-		list.displayElement();
-	
-		System.out.println(list.find(6));
-	}
+//	public static void main(String[]args) {
+//		strukturList list = new strukturList();
+//		list.addTail(5);
+//		list.addTail(4);
+//		list.addTail(6);
+//		
+//		list.displayElement();
+//	
+//		System.out.println(list.find(6));
+//	}
 	
 	//Main Program latihan 4
 	 public static void main(String[] args) {

@@ -54,11 +54,11 @@ public class strukturList {
 
     //Algortitma Function Clear List
     //Function clearList()
-    //HEAD ← null  // Menghapus semua elemen list
+    //HEAD ← null  // Menghapuskan seluruh elemen list
     //End Function
 
     public void clearList() {
-        HEAD = null; // Menghapus semua elemen dengan mengatur HEAD menjadi null
+        HEAD = null; // Menghapuskan seluruh elemen dan mengatur HEAD sehingga menjadi null
     }
 }
 

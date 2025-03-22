@@ -1,1 +1,1 @@
-package pertemuan6;
+package Pertemuan6;
